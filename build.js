@@ -1,15 +1,16 @@
 import { resolve } from 'node:path';
 import handlebars from 'bun-plugin-hbs';
 
+import * as conferences from './src/data/conferences.json' assert { type: 'json' };
+
 export async function buildProject() {
   const result = await Bun.build({
-    entrypoints: [ resolve(__dirname, 'src/index.html')],
+    entrypoints: [resolve(__dirname, 'src/index.html')],
     outdir: 'dist',
     plugins: [
       handlebars({
         context: {
-          author: 'Michał Korczak',
-          items: ['Naruto', 'Steins;Gate', 'Bleach', '...'],
+          ...conferences,
         },
         partialDirectory: resolve(__dirname, 'src/partials'),
         helpers: {

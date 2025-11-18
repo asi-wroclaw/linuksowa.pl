@@ -1,0 +1,156 @@
+{
+  "conferences": [
+    {
+      "year": 2025,
+      "title": "19 Sesja Linuksowa",
+      "date": "5-6 kwietnia 2025",
+      "location": "Centrum Kongresowe Politechniki Wrocławskiej",
+      "online": true,
+      "url": "https://19.sesja.linuksowa.pl/"
+    },
+    {
+      "year": 2024,
+      "title": "18 Sesja Linuksowa",
+      "date": "20-21 kwietnia 2024",
+      "location": "Centrum Kongresowe Politechniki Wrocławskiej",
+      "online": true,
+      "url": "https://18.sesja.linuksowa.pl/"
+    },
+    {
+      "year": 2023,
+      "title": "17 Sesja Linuksowa",
+      "date": "22-23 kwietnia 2023",
+      "location": "Centrum Kongresowe Politechniki Wrocławskiej",
+      "online": true,
+      "url": "https://17.sesja.linuksowa.pl/"
+    },
+    {
+      "year": 2019,
+      "title": "16 Sesja Linuksowa",
+      "date": "6-7 kwietnia 2019",
+      "location": "Centrum Kongresowe Politechniki Wrocławskiej",
+      "online": true,
+      "url": "https://16.sesja.linuksowa.pl/"
+    },
+    {
+      "year": 2018,
+      "title": "15 Sesja Linuksowa",
+      "date": "7-8 kwietnia 2018",
+      "location": "Centrum Kongresowe Politechniki Wrocławskiej",
+      "online": true,
+      "url": "https://15.sesja.linuksowa.pl/"
+    },
+    {
+      "year": 2017,
+      "title": "14 Sesja Linuksowa",
+      "date": "6-7 maja 2017",
+      "location": "Strefa Kultury Studenckiej",
+      "online": true,
+      "url": "https://14.sesja.linuksowa.pl/"
+    },
+    {
+      "year": 2016,
+      "title": "13 Sesja Linuksowa",
+      "date": "2-3 kwietnia 2016",
+      "location": "Strefa Kultury Studenckiej",
+      "online": true,
+      "url": "https://13.sesja.linuksowa.pl/"
+    },
+    {
+      "year": 2015,
+      "title": "12 Sesja Linuksowa",
+      "date": "18-19 kwietnia 2015",
+      "location": "Centrum Technologii Audiowizualnych CeTA",
+      "online": true,
+      "url": "https://12.sesja.linuksowa.pl/"
+    },
+    {
+      "year": 2014,
+      "title": "11 Sesja Linuksowa",
+      "date": "5-6 kwietnia 2014",
+      "location": "Strefa Kultury Studenckiej",
+      "online": true,
+      "url": "#"
+    },
+    {
+      "year": 2013,
+      "title": "10 Sesja Linuksowa",
+      "date": "6-7 kwietnia 2013",
+      "location": "Aula Politechniki Wrocławskiej",
+      "online": true,
+      "url": "#"
+    },
+    {
+      "year": 2012,
+      "title": "9 Sesja Linuksowa",
+      "date": "21-22 kwietnia 2012",
+      "location": "Aula Politechniki Wrocławskiej",
+      "online": true,
+      "url": "#"
+    },
+    {
+      "year": 2011,
+      "title": "8 Sesja Linuksowa",
+      "date": "11-12 czerwca 2011",
+      "location": "Aula Politechniki Wrocławskiej",
+      "online": true,
+      "url": "#"
+    },
+    {
+      "year": 2010,
+      "title": "7 Sesja Linuksowa",
+      "date": "23-24 października 2010",
+      "location": "Budynek Gamma, Wrocławski Park Technologiczny",
+      "online": true,
+      "url": "#"
+    },
+    {
+      "year": 2009,
+      "title": "6 Sesja Linuksowa",
+      "date": "9-10 maja 2009",
+      "location": "Budynek B-4, Politechnika Wrocławska",
+      "online": true,
+      "url": "#"
+    },
+    {
+      "year": 2008,
+      "title": "V Sesja Linuksowa",
+      "date": "5-6 kwietnia 2008",
+      "location": "Aula Politechniki Wrocławskiej",
+      "online": false,
+      "url": "#"
+    },
+    {
+      "year": 2007,
+      "title": "IV Sesja Linuksowa",
+      "date": "26-27 maja 2007",
+      "location": "Aula Politechniki Wrocławskiej",
+      "online": false,
+      "url": "#"
+    },
+    {
+      "year": 2006,
+      "title": "III Sesja Linuksowa",
+      "date": "10-11 czerwca 2006",
+      "location": "Aula Politechniki Wrocławskiej",
+      "online": false,
+      "url": "#"
+    },
+    {
+      "year": 2005,
+      "title": "II Sesja Linuksowa",
+      "date": "15-16 maja 2005",
+      "location": "Aula Politechniki Wrocławskiej",
+      "online": false,
+      "url": "#"
+    },
+    {
+      "year": 2004,
+      "title": "Sesja Linuksowa",
+      "date": "29 maja 2004",
+      "location": "Budynek A-1, sale 144, 322, 314, Politechnika Wrocławska",
+      "online": false,
+      "url": "#"
+    }
+  ]
+}
