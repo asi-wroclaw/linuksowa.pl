@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  {{> head }}
+</head>
+
+<body>
+  <h1>Welcome to the Handlebars Sample Page</h1>
+  <p>This page demonstrates including a partial using Handlebars.</p>
+
+  Some context and helpers tests:
+  <p>Plugin author: {{author}}</p>
+
+  Favourite anime:
+  <ul>
+    {{#each items}}
+    <li>{{this}}</li>
+    {{/each}}
+  </ul>
+
+  List check:
+  {{#if (hasItems items)}}
+  <span>The list has items.</span>
+  {{else}}
+  <span>The list is empty.</span>
+  {{/if}}
+
+  <br />
+  List size: {{items.length}}
+
+  <br />
+  First item using lookup helper: {{lookup items 0}}
+
+  <br />
+  Uppercase first item using uppercase helper: {{uppercase (lookup items 0)}}
+
+  <br />
+  Equality check using eq helper:
+  {{#if (eq (lookup items 0) "Bleach")}}
+  <span>The first item is Bleach.</span>
+  {{else}}
+  <span>The first item is not Bleach.</span>
+  {{/if}}
+</body>
+
+</html>
