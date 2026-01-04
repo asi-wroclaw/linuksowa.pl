@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "year": "2026",
+    "title": "Sesja Linuksowa",
+    "description": "Strona poświęcona Sesji Linuksowej organizowanej przez Akademickie Stowarzyszenie Informatyczne.",
+    "keywords": "Linux, Open Source, Konferencja, Sesja Linuksowa, Akademickie Stowarzyszenie Informatyczne, Wrocław, Polska",
+    "author": "Michał Korczak",
+    "locale": "pl_PL",
+    "url": "https://linuksowa.pl",
+    "image": "/assets/img/og-image.png",
+    "asi": {
+      "name": "Akademickie Stowarzyszenie Informatyczne",
+      "url": "https://asi.wroclaw.pl"
+    }
+  }
+}

@@ -1,7 +1,17 @@
 <footer>
   <div class="footer-content">
-    <p>&copy; 1999-2026 Akademickie Stowarzyszenie Informatyczne</p>
-    <p>Sesja Linuksowa - ponad 20 lat tradycji konferencji Open Source</p>
-    <p>Stworzone przez <a href="https://omikor.in">Michał Korczak</a></p>
+    <div class="footer-left">
+      <p class="footer-copyright">&copy; 1999-{{ meta.year }}
+        <a href="{{ meta.asi.url }}" target="_blank" rel="noopener noreferrer">
+          {{ meta.asi.name }}
+        </a>
+      </p>
+    </div>
+    <div class="footer-center">
+      <p class="footer-tagline">Sesja Linuksowa &mdash; ponad 20 lat tradycji konferencji Open Source</p>
+    </div>
+    <div class="footer-right">
+      <p class="footer-author">Stworzone przez <a href="https://omikor.in">Michał Korczak</a></p>
+    </div>
   </div>
 </footer>

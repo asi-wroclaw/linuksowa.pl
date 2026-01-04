@@ -1,0 +1,16 @@
+<section class="next-edition">
+  <h2>Następna edycja</h2>
+  <p><strong>5-6 kwietnia 2025</strong> &mdash; Centrum Kongresowe Politechniki Wrocławskiej</p>
+  <a href="https://19.sesja.linuksowa.pl/">Przejdź do strony edycji 2025</a>
+</section>
+
+<section class="timeline">
+  <h2>Poprzednie edycje</h2>
+  {{#each conferences}}
+    <div class="timeline-event">
+      <h3>{{this.year}}: {{this.title}}</h3>
+      <p>{{this.date}}, {{this.location}}</p>
+      <a href="{{this.url}}">Strona edycji</a>
+    </div>
+  {{/each}}
+</section>

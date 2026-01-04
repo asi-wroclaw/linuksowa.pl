@@ -2,27 +2,9 @@
 
 ![GitHub License](https://img.shields.io/github/license/asi-wroclaw/linuksowa.pl)
 
-A project template for quickly starting a Bun + Handlebars static site.
+Landing page for Sesja Linuksowa conference.
 
 ## Getting started
-
-### Using the template
-
-Scaffold a project:
-
-```bash
-bun create bun-hbs
-```
-
-optionally set a custom name:
-
-```bash
-bun create bun-hbs my-project
-```
-
-### Configuring
-
-For more advanced configuration options and usage details, refer to the [bun-plugin-hbs package](https://github.com/Omikorin/bun-plugin-handlebars/tree/main/packages/bun-plugin-hbs).
 
 ### Development
 
@@ -44,7 +26,8 @@ The output will be in the `dist/` directory.
 
 ## License
 
-The linuksowa.pl website source code is licensed under the [European Union Public License 1.2](https://github.com/Omikorin/bun-plugin-handlebars/blob/main/LICENSE) or later.
+The linuksowa.pl website source code is licensed under the [European Union Public License 1.2](https://github.com/asi-wroclaw/linuksowa.pl/blob/main/LICENSE) or later.
+The content of this site is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International license](https://creativecommons.org/licenses/by-sa/4.0/).
 
 Copyright (c) 2025 Michał Korczak
 

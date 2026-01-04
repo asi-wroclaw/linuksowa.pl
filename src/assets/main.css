@@ -1,2 +1,5 @@
-@import './header.css';
-@import './footer.css';
+@import url('https://unpkg.com/@picocss/pico@latest/css/pico.min.css');
+
+@import './styles/variables.css';
+@import './styles/global.css';
+@import './styles/hero.css';

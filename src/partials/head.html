@@ -1,20 +1,26 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Sesja Linuskowa</title>
 
-<meta name="description"
-  content="Strona poświęcona Sesji Linuskowej organizowanej przez Akademickie Stowarzyszenie Informatyczne." />
+<meta name="description" content="{{ meta.description }}" />
+<meta name="keywords" content="{{ meta.keywords }}" />
+<meta name="author" content="Michał Korczak" />
 
-<!-- Open Graph -->
-<meta property="og:site_name" content="Sesja Linuskowa" />
-<meta property="og:title" content="Sesja Linuskowa" />
-<meta property="og:description"
-  content="Strona poświęcona Sesji Linuskowej organizowanej przez Akademickie Stowarzyszenie Informatyczne." />
-<!-- <meta property="og:image" content="https://linuksowa.pl/assets/og-image.png" /> -->
-<meta property="og:updated_time" content="2025-11-18T12:00:00Z" />
-<meta property="og:locale" content="pl_PL" />
+<meta property="og:site_name" content="{{ meta.title }}" />
+<meta property="og:title" content="{{ meta.title }}" />
+<meta property="og:locale" content="{{ meta.locale }}" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://linuksowa.pl/" />
+<meta property="og:url" content="{{ meta.url }}" />
+<meta property="og:description" content="{{ meta.description }}" />
+<!-- <meta property="og:image" content="{{ meta.image }}" /> -->
+
+<!-- <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png" /> -->
+<!-- <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png" /> -->
+<!-- <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png" /> -->
+<!-- <link rel="shortcut icon" type="image/x-icon" href="/assets/img/favicon.ico" /> -->
 
 {{! local resources need to be linked with relative from index.html with Bun }}
-<link rel="stylesheet" href="./assets/main.css" />
+<link href="./assets/main.css" rel="stylesheet" type="text/css" />
+
+<!-- <link rel="preconnect" href="https://scripts.simpleanalyticscdn.com" /> -->
+
+<title>{{ meta.title }}</title>

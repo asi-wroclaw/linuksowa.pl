@@ -1,7 +1,7 @@
 import { resolve } from 'node:path';
 import handlebars from 'bun-plugin-hbs';
 
-import * as conferences from './src/data/conferences.json' assert { type: 'json' };
+import { context } from './src/data/context';
 
 export async function buildProject() {
   const result = await Bun.build({
@@ -9,9 +9,7 @@ export async function buildProject() {
     outdir: 'dist',
     plugins: [
       handlebars({
-        context: {
-          ...conferences,
-        },
+        context,
         partialDirectory: resolve(__dirname, 'src/partials'),
         helpers: {
           eq: (a, b) => a === b,
