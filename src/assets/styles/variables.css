@@ -1,7 +1,13 @@
 :root {
-  --asi-primary: #d65502;
-  --asi-primary-dark: #9a3d00;
-
   --sl-primary: #0cdceb;
-  --sl-secondary: #eb0c85;
+  --sl-secondary: #e90c85;
+
+  --sl-primary-dark: #0ab6c2;
+  --sl-secondary-dark: #c20a6f;
+
+  --hero-bg: #2e3f41;
+  
+  /* test colors */
+  --sl-dark-accent: #3B686B;
+  --sl-dark-accent2: #429096;
 }

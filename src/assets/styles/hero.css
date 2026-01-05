@@ -1,93 +1,84 @@
-.landing-hero {
+.event-hero {
+  position: relative;
+  z-index: 1;
   height: 100vh;
   width: auto;
-  --pico-block-spacing-vertical: 0; /* margin-bottom */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: linear-gradient(120deg, #429096 0%, #3B686B 60%, #2E3F41 100%);
-  overflow: hidden;
+  display: grid;
+  align-content: space-between;
 }
 
-.landing-hero-content {
-  max-width: 700px;
+.top-bar, .bottom-bar {
+  background: #000000;
+  height: 14em;
+}
+
+.top-bar-inner {
+  height: 100%;
+  margin: 0;
+  padding: 0 40px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.event-logo img {
+  height: 7em;
+}
+
+.event-hero-main {
+  position: relative;
+  min-height: 350px;
+  display: flex;
+  align-items: center;
+}
+
+.event-hero-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
+  height: 100%;
+  background-image: url('../images/branding/pingwin.png');
+  background-size: cover;
+  background-position: left center;
+  translate: -28%;
+}
+
+.event-hero-content {
+  width: 100%;
+  padding: 40px;
   margin: 0 auto;
-  padding: 2rem;
-  color: #fff;
-  text-align: center;
-}
-
-.landing-logo {
-  width: 120px;
-  height: 120px;
-  margin: 0 auto 2rem auto;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: rgba(255, 255, 255, 0.08);
-  border: 3px solid #0cdceb;
-  box-shadow: 0 4px 24px rgba(44, 44, 44, 0.12);
-}
-
-.landing-hero h1 {
-  font-size: 3.2rem;
-  font-weight: 900;
-  margin-bottom: 1rem;
-  letter-spacing: 0.04em;
-  text-shadow: 0 2px 8px rgba(44,44,44,0.18);
-}
-
-.landing-title {
-  color: #fff;
-}
-
-.landing-subtitle {
-  font-size: 1.3rem;
-  font-weight: 500;
-  margin-bottom: 2rem;
-  color: #0cdceb;
-  text-shadow: 0 1px 4px rgba(44,44,44,0.10);
-}
-
-.landing-info {
-  background: rgba(255,255,255,0.07);
-  border-radius: 1rem;
-  padding: 1.5rem 1rem;
-  margin: 0 auto;
-  max-width: 400px;
-  box-shadow: 0 2px 12px rgba(44,44,44,0.10);
   display: flex;
   flex-direction: column;
-  gap: 0.75rem;
+  align-items: flex-end;
+  gap: 40px;
 }
 
-.landing-date {
-  font-size: 1.1rem;
-  font-weight: 600;
-  color: #fff;
+.event-date {
+  font-size: 32px;
+  font-weight: 700;
+  text-align: right;
 }
 
-.landing-location {
-  font-size: 1rem;
-  color: #eee;
-}
-
-.landing-link {
+.event-tickets-cta {
   display: inline-block;
-  margin-top: 1rem;
-  padding: 0.5em 1.2em;
-  background: #eb0c85;
-  color: #fff;
-  border-radius: 0.5em;
+  padding: 18px 40px;
+  font-size: 28px;
+  font-weight: 800;
+  color: #ffffff;
+  background: var(--sl-secondary-dark);
+  border: none;
+  border-radius: 8px;
   text-decoration: none;
-  font-weight: 600;
-  box-shadow: 0 2px 8px rgba(44,44,44,0.10);
-  transition: background 0.2s;
+  text-align: center;
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+  letter-spacing: 1px;
 }
 
-.landing-link:hover {
-  background: #0cdceb;
-  color: #222;
+.event-tickets-cta:hover,
+.event-tickets-cta:focus {
+  background: var(--sl-secondary);
+  color: #ffffff;
 }
