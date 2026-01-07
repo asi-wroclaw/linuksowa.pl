@@ -20,7 +20,7 @@
   }
 }
 
-.top-bar-inner {
+.top-bar-inner, .bottom-bar-inner {
   height: 100%;
   margin: 0;
   padding: 0 40px;
@@ -29,9 +29,23 @@
   align-items: center;
 }
 
+.bottom-bar-inner {
+  padding: 0 80px;
+  gap: 2em;
+}
+
+.bottom-bar-inner svg:hover {
+  fill: #aaa;
+}
+
 @media (max-width: 768px) {
-  .top-bar-inner {
+  .top-bar-inner, .bottom-bar-inner {
     justify-content: center;
+  }
+
+  .bottom-bar-inner {
+    padding: 0;
+    gap: 1.25em;
   }
 }
 
@@ -41,7 +55,7 @@
 
 @media (max-width: 768px) {
   .event-logo img {
-    height: 4em;
+    height: 5em;
   }
 }
 
