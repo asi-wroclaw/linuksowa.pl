@@ -182,6 +182,36 @@
   color: #ffffff;
 }
 
+.event-cfp {
+  display: inline-block;
+  padding: 18px 40px;
+  font-size: 28px;
+  font-weight: 800;
+  color: #ffffff;
+  background: var(--sl-primary-dark);
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  text-align: center;
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 768px) {
+  .event-cfp {
+    font-size: 24px;
+    padding: 16px 32px;
+  }
+}
+
+.event-cfp:hover,
+.event-cfp:focus {
+  background: var(--sl-primary);
+  color: #ffffff;
+}
+
 .event-hero-bg {
   position: absolute;
   top: 0;
