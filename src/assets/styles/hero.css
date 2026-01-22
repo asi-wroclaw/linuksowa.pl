@@ -101,7 +101,7 @@
 
 @media (max-width: 400px) {
   .event-hero-main {
-    min-height: 34em;
+    min-height: 37.6em;
   }
 }
 
@@ -126,7 +126,7 @@
 
 @media (max-width: 400px) {
   .event-hero-content {
-    padding: 10px;
+    padding: 15px;
     gap: 15px;
   }
 }
@@ -145,7 +145,21 @@
   }
 }
 
-.event-tickets-cta {
+.event-hero-buttons {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 20px;
+}
+
+@media (max-width: 768px) {
+  .event-hero-buttons {
+    flex-direction: column;
+    gap: 16px;
+  }
+}
+
+.event-tickets-cta,
+.event-cfp-cta {
   display: inline-block;
   padding: 18px 40px;
   font-size: 28px;
@@ -162,15 +176,21 @@
   letter-spacing: 1px;
 }
 
+.event-cfp-cta {
+  background: var(--sl-primary-dark);
+}
+
 @media (max-width: 768px) {
-  .event-tickets-cta {
+  .event-tickets-cta,
+  .event-cfp-cta {
     font-size: 24px;
     padding: 16px 32px;
   }
 }
 
 /* @media (max-width: 400px) {
-  .event-tickets-cta {
+  .event-tickets-cta,
+  .event-cfp-cta {
     font-size: 20px;
     padding: 14px 28px;
   }
@@ -179,6 +199,12 @@
 .event-tickets-cta:hover,
 .event-tickets-cta:focus {
   background: var(--sl-secondary);
+  color: #ffffff;
+}
+
+.event-cfp-cta:hover,
+.event-cfp-cta:focus {
+  background: var(--sl-primary);
   color: #ffffff;
 }
 
